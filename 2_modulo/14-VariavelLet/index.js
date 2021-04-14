@@ -1,6 +1,11 @@
 /*
     Pode ser acessada apenas no escopo em que foi
     criada ou nos filhos do escopo
+
+    não podem ser redeclaradas, diferente do 'var'
+        var nome = 'aa'
+        var nome = 'bb'
+
 */
 let nome = 'Lucas';
 
