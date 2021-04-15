@@ -20,7 +20,7 @@
 let num1 = 8;
 let num2 = 4;
 console.log(num1/num2);
-console.log(num1 ** num2);
+console.log(num1 ** num2); //potencia
 console.log(num1 % num2)
 console.log(num1 + num2)
 console.log(num1++);
