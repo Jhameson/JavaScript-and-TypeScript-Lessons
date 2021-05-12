@@ -2,8 +2,8 @@
 //seleciona o formulário
 const form = document.querySelector('#form');
 
-//parar o envio do formulário
 form.addEventListener('submit', (event) => {
+    //parar o envio do formulário
     event.preventDefault();
     const inputPeso = event.target.querySelector('#peso'); //elemento com id peso
     const inputAltura = event.target.querySelector('#altura');
