@@ -5,7 +5,7 @@ console.log(`Jhameson`);
 
 var nome = 'Jhameson';
 console.log('Nome: '+nome)
-console.log(`Nome: ${nome}`);
+console.log(`Nome: ${nome}`); //template literals
 
 // template string ${}
 
