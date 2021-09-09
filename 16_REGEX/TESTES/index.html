@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h2>Treinos</h2>
+        <label for="">Telefone</label>
+        <input type="text" name="telefone" id="telefone" maxlength="15" />
+        <label for="">CPF</label>
+        <input type="text" name="telefone" id="cpf"  onkeydown="javascript: fMasc( this, mCPF );" maxlength="14"/>
+        <label for="">Money</label>
+        <input type="text" name="telefone" id="telefone" onkeydown="javascript: fMasc( this, mMoney );"/>
+    </section>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #d4d4d4;
+        }
+        section{
+            margin: auto;
+            width: 80%;
+            background-color: rgb(240, 189, 123);
+            border: 2px solid rgb(255, 103, 1);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+        input{
+            width: 200px;
+            height: 30px;
+            text-align: center;
+        }
+    </style>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -27,10 +27,11 @@ alunos.shift(); //remove o primeiro
 
 delete alunos[1]; //remove pelo indice e não altera a posição dos outros
 //=> o valor do indice fica vazio <1 empty item>
+// console.log("Aqui: "+alunos)
 
 alunos[1] = 'Jhameson'; //editar array
 
-console.log(alunos.slice(0,3)); //"corta" o array
+console.log("Corta: "+alunos.slice(0,3)); //"corta" o array
 
 console.log(alunos);
 

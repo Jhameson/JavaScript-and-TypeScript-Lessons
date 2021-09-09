@@ -12,13 +12,13 @@ i - insensitive
 */
 const regExp1 = /Casa/; //busca pela palavra "Casa" (C maiusculo)
 
-const regExp2 = /Casa/gi; //busca pela palavra "casa" com letras maiusculas ou minusculas
+const regExp2 = /Casa/gi; //busca pela palavra "casa" com letras maiusculas ou minusculas //global
 
 const regExp3 = /(Casa )(de)/i; //busca pela palavra "casa" com letras maiusculas ou minusculas
 
-const regExp4 = /Torre/gi; //busca pela palavra "casa" com letras maiusculas ou minusculas
+const regExp4 = /Torre/gi; //busca pela palavra "Torre" com letras maiusculas ou minusculas
 
-const regExp5 = /(gostavam |casa |andar )(de)/i; //busca por "casa de" ou "gostavam de"
+const regExp5 = /(gostavam |casa |andava )(de)/i; //busca por "casa de" ou "gostavam de"
 
 console.log("Busca: "+regExp1.test(texto));//procura pela expressão criada (regExp1) - boolean
 console.log("Busca: "+regExp2.test(texto));//procura pela expressão criada (regExp2) - boolean
