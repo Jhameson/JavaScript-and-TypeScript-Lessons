@@ -26,3 +26,26 @@ console.log("insere no final: ", frutas);
 //insere no inicio
 frutas.unshift("tangerina");
 console.log("insere no inicio: ", frutas);
+
+//remove e retorna o valor
+const oNome = nomes.pop();
+console.log("O nome: ", oNome);
+
+console.log("Array frutas: ", frutas);
+
+//"fatiar" o array de um ponto a outro
+const sliceFrutas = frutas.slice(0,1); // o indice final não é incluído
+console.log("Slice: ", sliceFrutas);
+
+const sliceFrutas2 = frutas.slice(0,-1); // remove o ultimo
+console.log("Slice remove ultimo: ", sliceFrutas2);
+
+//Split separa string em substrings dentro de um array
+const nomeTeste = 'Jhameson Lucas Farias';
+const nomeSplit = nomeTeste.split(' ');
+console.log("Split: ", nomeSplit)
+
+//une os valores do array
+const unir = nomeSplit.join();
+// const unir = nomeSplit.join(',');
+console.log("Unir: ",unir);
