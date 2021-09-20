@@ -48,4 +48,4 @@ console.log("Nomes com mais de 3 letras: ", pessoas.filter( value=> value.nome.l
 console.log("Mais de 25 anos: ", pessoas.filter(value=> value.idade > 25));
 
 //retornar pessoas que o nome termina com A
-console.log("Nomes terminados com A: ", pessoas.filter(value => value.nome.toLowerCase().endsWith('a')))
+console.log("Nomes terminados com A: ", pessoas.filter(value => value.nome.toLowerCase().endsWith('a')));
