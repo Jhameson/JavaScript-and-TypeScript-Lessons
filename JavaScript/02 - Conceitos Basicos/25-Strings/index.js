@@ -7,7 +7,7 @@ let outraString = "um \\texto";
 
 console.log("String: "+umaString);
 console.log("String: "+outraString);
-console.log("Indezadas: "+outraString[6]); //indexadas
+console.log("Indexadas: "+outraString[6]); //indexadas
 console.log("CharAt: "+outraString.charAt(6)); //indexadas
 console.log(outraString.concat(' ', ' teste', ' concatenando')); //concatenar
 //console.log(`${outraString} teste concatenando`);
@@ -20,7 +20,7 @@ console.log(umaString.search('e')); // procura o index do char passado
 console.log(umaString.search(/x/));
 console.log(umaString.replace('texto', 'TEXTO')); //substitue algo por algo
 console.log(umaString.replace(/e/g, '#')); //funções regulares => substitue todos 'e' por #
-console.log(umaString.length); //tamnho
+console.log(umaString.length); //tamanho
 console.log(umaString.slice(4,9)); //corta
 console.log(umaString.slice(2)); //corta
 console.log(umaString.split(' ')); //separa a string a cada espaço

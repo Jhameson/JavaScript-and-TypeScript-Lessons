@@ -1,5 +1,4 @@
 
-
 let nome = 'Jhameson'; //string
 let idade = 21; //number
 let altura = 1.7; //number
